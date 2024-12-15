@@ -30,8 +30,7 @@ Have the entry detect OS version <br>
 $ sudo install.sh
 ```
 
-If you give it as argument the path to a png, it will use it as logo
-WARNING: for now, only 191x191 PNGs...
+If you give it as argument the path to a 
 
 3. Reboot
 
