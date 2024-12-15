@@ -5,7 +5,7 @@
 
 Grub menu theme for Elementary OS 8, Circe, and beyond!
 
-# THIS IS STILL A WIP, DO NOT USE
+# THE WIP WORKS, BUT THE CODE IS UGLY
 
 
 <div align="center">
@@ -13,7 +13,7 @@ Grub menu theme for Elementary OS 8, Circe, and beyond!
 </div>
 
 ## ToDO
-WE NEED TO TEST THIS OMG<br>
+
 Also put a better screenshot or something<br>
 Maybe a Menu, font size, and logo more in line with current eOS (plymouth...)<br>
 A better install script.<br>
