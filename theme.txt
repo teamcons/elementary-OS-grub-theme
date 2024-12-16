@@ -44,7 +44,7 @@ terminal-border: "0"
 
 	item_font = "Inter Bold 14"
 	item_color = "#999"
-	selected_item_font = "Inter Bold 14"
+	selected_item_font = "DejaVu Sans Bold 14"
 	selected_item_color= "#fff"
 
 	item_height = 26

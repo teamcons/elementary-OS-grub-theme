@@ -13,7 +13,15 @@ mkdir -v /boot/grub/themes
 mkdir -v /boot/grub/themes/elementaryOS
 
 # Move theme there
-cp -vri ./* /boot/grub/themes/elementaryOS
+cp -vr ./* /boot/grub/themes/elementaryOS/
+cp -vr ./fonts/inter* /boot/grub/fonts/
+
+# If user gave in a logo, overwrite the default with it
+if [[ -f "$*" ]] 
+then
+    cp -frv "$*" /boot/grub/themes/elementaryOS/logo.png
+fi
+
 
 # Lets avoid pollution: Remove previous GRUB_THEME entry if any
 cat "/etc/default/grub"             > /etc/default/grub.previous
